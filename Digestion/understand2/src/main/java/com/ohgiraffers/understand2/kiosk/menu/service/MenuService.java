@@ -28,6 +28,7 @@ public class MenuService {
 
     public MenuDTO searchMenuByName(MenuDTO menuDTO) {
 
+        System.out.println(menuDTO.getName());
         return menuDAO.searchMenuByName(menuDTO.getName());
 
     }
